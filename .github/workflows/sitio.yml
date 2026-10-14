@@ -1,0 +1,21 @@
+name: Construir sitio desde la ficha
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 13 * * *"
+  push:
+    paths: [construir.py, config.json, .github/workflows/sitio.yml]
+permissions:
+  contents: write
+jobs:
+  sitio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install pillow==10.4.0
+      - run: python -u construir.py
+      - run: |
+          git config user.email "claude@acierta.pro"; git config user.name "Sitio automatico"
+          git add -A; git diff --cached --quiet || (git commit -m "Sitio actualizado desde la ficha" && git push)

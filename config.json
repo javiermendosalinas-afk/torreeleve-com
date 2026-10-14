@@ -1,0 +1,87 @@
+{
+ "dominio": "torreeleve.com",
+ "marca": "Torre Élevé",
+ "nombre": "Departamento en Torre Élevé, Valle Real",
+ "clave": "EB-WM2996",
+ "ficha": "https://www.aciertamax.com/property/extraordinario-departamento-valle-real-torre-de-lujo-eleve-valle-real-zapopan",
+ "titulo": "Departamento de lujo en renta en Torre Élevé, Valle Real · 3 recámaras, 247 m² · $37,000",
+ "desc_meta": "Departamento nuevo de 247 m² en Torre Élevé, Valle Real, Zapopan: 3 recámaras con baño, vista al campo de golf, 2 cajones y bodega. Renta $37,000 al mes. Exclusiva de Acierta Max.",
+ "etiqueta": "Exclusiva de Acierta Max · A estrenar",
+ "h1": "Vive frente al campo de golf, en la torre más exclusiva de Valle Real",
+ "sub": "247 m² con 3 recámaras, cada una con su baño, en el piso 6 de Torre Élevé, con vista al Campo de Golf Las Lomas.",
+ "renta": 37000,
+ "rec": 3,
+ "m2": 247,
+ "lat": 20.72173,
+ "lon": -103.43297,
+ "zona": "Valle Real, Zapopan",
+ "colores": {
+  "fondo": "#1F3B2D",
+  "acento": "#C9A86A",
+  "claro": "#F7F5F0"
+ },
+ "fuente_titulo": "Cormorant+Garamond:wght@500",
+ "familia_titulo": "Cormorant Garamond",
+ "datos": [
+  [
+   "247 m²",
+   "de departamento"
+  ],
+  [
+   "3 recámaras",
+   "cada una con baño completo"
+  ],
+  [
+   "3½ baños",
+   "3 completos y medio baño"
+  ],
+  [
+   "2 cajones",
+   "más bodega"
+  ]
+ ],
+ "h2": "Espacio, privacidad y una vista que no se repite",
+ "historia": "Hay casas que se recuerdan por la vista. Desde el piso 6 de Torre Élevé, el verde del Campo de Golf Las Lomas es lo primero que ves al despertar. Sus 247 m² te dan lo que pocos departamentos ofrecen: tres recámaras, cada una con su baño, para que tu familia o tus invitados tengan su propio espacio. Es la tranquilidad de una casa con la seguridad y las amenidades de una torre de lujo.",
+ "incluye": [
+  "3 recámaras con baño completo cada una",
+  "3 baños completos y medio baño",
+  "2 cajones de estacionamiento y bodega",
+  "Piso 6, a estrenar",
+  "Vista al Campo de Golf Las Lomas",
+  "Torre de 15 niveles con alberca, gimnasio, jacuzzi y salón de usos múltiples",
+  "Seguridad 24 horas"
+ ],
+ "h2_ubic": "En el corazón de Valle Real",
+ "ubic": "Una de las zonas residenciales más cotizadas de Zapopan, con acceso rápido a Andares, Puerta de Hierro y Av. Patria.",
+ "cerca": [
+  "Campo de Golf Las Lomas",
+  "Andares, a unos 2.5 km en línea recta",
+  "Puerta de Hierro",
+  "Colegios y hospitales de la zona poniente"
+ ],
+ "faq": [
+  [
+   "¿Cuánto cuesta la renta?",
+   "$37,000 al mes. Requisitos, depósito y condiciones se confirman por escrito con tu asesor."
+  ],
+  [
+   "¿Cuántas recámaras tiene?",
+   "Tres recámaras, cada una con baño completo, más medio baño para visitas: 247 m² en total."
+  ],
+  [
+   "¿Incluye estacionamiento?",
+   "Sí, 2 cajones de estacionamiento y una bodega."
+  ],
+  [
+   "¿Qué amenidades tiene la torre?",
+   "Alberca, gimnasio, jacuzzi, salón de usos múltiples y seguridad 24 horas."
+  ],
+  [
+   "¿Dónde está?",
+   "En Valle Real, Zapopan, con vista al Campo de Golf Las Lomas."
+  ]
+ ],
+ "cierre": "Agenda tu visita y conoce la vista en persona",
+ "wa": "ELEVE · Vengo de torreeleve.com y quiero agendar una visita al departamento de Torre Élevé (EB-WM2996)",
+ "legal": "Unidad en comercialización exclusiva de Acierta Max."
+}
