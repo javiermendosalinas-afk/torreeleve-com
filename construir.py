@@ -41,7 +41,18 @@ ld = {"@context": "https://schema.org", "@graph": [{"@type": "Apartment", "@id":
        "geo": {"@type": "GeoCoordinates", "latitude": C["lat"], "longitude": C["lon"]}, "address": {"@type": "PostalAddress", "addressLocality": C["zona"], "addressRegion": "Jalisco", "addressCountry": "MX"}},
       {"@type": "Offer", "itemOffered": {"@id": "#unidad"}, "priceSpecification": {"@type": "UnitPriceSpecification", "price": C["renta"], "priceCurrency": "MXN", "unitText": "mes"}, "seller": {"@type": "RealEstateAgent", "name": "Acierta Max", "telephone": "+52 33 3377 7337"}},
       {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in C["faq"]]}]}
-pagina = f"""<!DOCTYPE html><html lang="es-MX"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+pagina = f"""<!DOCTYPE html><html lang="es-MX"><head>
+<!-- Google tag (Google Ads AW-741016611 + GA4 G-NXLF42YLWF): mide visitas y clics a WhatsApp -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-741016611"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}
+gtag('js',new Date());gtag('config','AW-741016611');gtag('config','G-NXLF42YLWF');
+window.ACIERTA_CONV_LABEL='';/* cuando exista la conversion "Clic en WhatsApp", va aqui su etiqueta */
+document.addEventListener('click',function(e){{var a=e.target.closest&&e.target.closest('a[href*="wa.me/"],a[href^="tel:"]');if(!a)return;
+ var wa=a.href.indexOf('wa.me/')>=0;gtag('event',wa?'clic_whatsapp':'clic_llamada',{{sitio:location.hostname,destino:a.href.slice(0,120)}});
+ if(wa&&window.ACIERTA_CONV_LABEL)gtag('event','conversion',{{send_to:'AW-741016611/'+window.ACIERTA_CONV_LABEL}});}},true);
+</script>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{E(C['titulo'])}</title><meta name="description" content="{E(C['desc_meta'])}"><link rel="canonical" href="https://{C['dominio']}/">
 <meta property="og:title" content="{E(C['titulo'])}"><meta property="og:description" content="{E(C['desc_meta'])}"><meta property="og:image" content="https://{C['dominio']}/{hero}"><meta name="theme-color" content="{P['fondo']}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family={C['fuente_titulo']}&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
