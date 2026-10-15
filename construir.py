@@ -82,7 +82,7 @@ document.addEventListener('click',function(e){{var a=e.target.closest&&e.target.
 <div class="foto" role="img" aria-label="{E(C['nombre'])}"></div></div></section>
 <section class="sec" id="detalle" style="padding-top:44px"><div class="w"><div class="datos">{datos}</div>
 <div class="dos" style="margin-top:56px"><div><h2>{E(C['h2'])}</h2><p class="intro">{E(C['historia'])}</p></div><div><h3>Lo que incluye</h3><ul class="l">{incl}</ul></div></div>
-<div class="gal id="fotos">>{gal}</div>{('<h3 style="margin-top:40px">Descripción de la ficha</h3><p class="desc">' + E(desc[:1800]) + '</p>') if desc else ''}</div></section>
+<div class="gal" id="fotos">{gal}</div>{('<h3 style="margin-top:40px">Descripción de la ficha</h3><p class="desc">' + E(desc[:1800]) + '</p>') if desc else ''}</div></section>
 <section class="sec osc" id="ubicacion"><div class="w dos"><div><h2>{E(C['h2_ubic'])}</h2><p class="intro">{E(C['ubic'])}</p><ul class="l">{cerca}</ul>
 <p><a class="btn ba" href="https://www.google.com/maps/search/?api=1&query={C['lat']},{C['lon']}" target="_blank" rel="noopener">Cómo llegar</a></p></div>
 <iframe title="Mapa" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox={C['lon']-0.012}%2C{C['lat']-0.008}%2C{C['lon']+0.012}%2C{C['lat']+0.008}&layer=mapnik&marker={C['lat']}%2C{C['lon']}"></iframe></div></section>
